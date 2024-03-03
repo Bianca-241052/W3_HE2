@@ -5,16 +5,16 @@ body {
 
 .topNav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #654a45;
 }
 
 .topNav a {
     float: left;
     color: #FFFFFF;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -23,17 +23,17 @@ body {
 }
 
 .topNav a:hover {
-    background-color: #ddd;
+    background-color: #c0a3a3;
     color: #000000;
 }
 
 .topNav a.active {
-    background-color: #04aa6d;
+    background-color: #392616;
     color: #FFFFFF;
 }
 
 header img {
-    width: 50%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -43,9 +43,9 @@ header img {
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    color: #04aa6d;
+    color: #c583ae;
     text-align: justify;
 }
 
@@ -104,8 +104,6 @@ h1 {
 
 #filters {
     filter: grayscale(100%);
-    /*filter: sepia(100%);*/
-    /*filter: blur(2px);*/
 }
 
 #filters:hover {
@@ -133,7 +131,7 @@ h1 {
     width: 100%;
     opacity: 0;
     transition: .5s ease-in;
-    background-color: #04aa6d;
+    background-color: #c37aaf;
 }
 
 .container:hover .overlay{
